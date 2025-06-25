@@ -101,4 +101,15 @@ const priceAddition = prices.reduce((accumulator, currentValue) => {
 
 console.log(priceAddition);
 
+// Esercizio 9: Metodo forEach
+
+// Data un array di nomi ["Alice", "Bob", "Charlie"], utilizza il metodo forEach() per stampare ogni nome sulla console, preceduto dalla frase "Ciao, ".
+
+const names = ["Alice", "Bob", "Charlie"];
+
+names.forEach((name) => {
+    console.log(`Ciao, ${name}`);
+})
+
+
 
