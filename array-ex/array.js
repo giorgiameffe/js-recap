@@ -138,7 +138,7 @@ console.log(uppercaseNames);
 
 // Esercizio 12: Metodo forEach, Punteggi
 
-// Hai un array di numeri che rappresentano i punteggi ottenuti in un test: punteggi = [85, 92, 78, 65, 95, 72]. Utilizza il metodo forEach() per:
+// Hai un array di numeri che rappresentano i punteggi ottenuti in un test [85, 92, 78, 65, 95, 72]. Utilizza il metodo forEach() per:
 // Stampare ogni punteggio, indicando se è un punteggio "alto" (maggiore o uguale a 80) o "basso" (minore di 80).
 // Calcolare la media di tutti i punteggi.
 // Stampa la media finale alla fine.
