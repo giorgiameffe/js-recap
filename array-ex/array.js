@@ -79,7 +79,7 @@ console.log(numbersForTwo);
 
 // Esercizio 7: Metodo Filter
 
-// Dato l'array di età età = [12, 18, 25, 6, 30, 16], utilizza il metodo filter() per creare un nuovo array contenente solo le età che sono maggiori o uguali a 18. 
+// Dato l'array di età [12, 18, 25, 6, 30, 16], utilizza il metodo filter() per creare un nuovo array contenente solo le età che sono maggiori o uguali a 18. 
 // Stampa il nuovo array.
 
 const ages = [12, 18, 25, 6, 30, 16];
@@ -87,6 +87,18 @@ const ages = [12, 18, 25, 6, 30, 16];
 const filteredAges = ages.filter(age => age >= 18);
 console.log(filteredAges);
 
+// Esercizio 8: Metodo Reduce 
 
+// Dato un array di prezzi [10.50, 20.00, 5.75, 15.25], utilizza il metodo reduce() per calcolare la somma totale di tutti i prezzi nell'array. 
+// Stampa il risultato.
+
+const prices = [13.00, 20.50, 8.30, 23.50];
+
+const priceAddition = prices.reduce((accumulator, currentValue) => {
+
+    return accumulator += currentValue;
+})
+
+console.log(priceAddition);
 
 
