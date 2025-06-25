@@ -126,7 +126,15 @@ if (evenNumber != undefined) {
     console.log("Nessun numero pari presente")
 }
 
+// Esercizio 11: Metodo Map
 
+// Dato un array di nomi ["alice", "bob", "charlie"], usa map() per creare un nuovo array dove ogni nome sia convertito in lettere maiuscole.
+// Stampa il risultato.
+
+const peopleNames = ["alice", "bob", "charlie"];
+
+const uppercaseNames = peopleNames.map(name => name.toUpperCase());
+console.log(uppercaseNames);
 
 
 
