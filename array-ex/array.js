@@ -67,6 +67,16 @@ console.log(cities);
 cities[1] = "Firenze";
 console.log(cities);
 
+// Esercizio 6: Metodo Map 
+
+// Dato un array di numeri [1, 2, 3, 4, 5], utilizza il metodo map() per creare un nuovo array in cui ogni numero sia moltiplicato per 2. 
+// Stampa il nuovo array.
+
+const arrayNumbers = [1, 2, 3, 4, 5];
+
+const numbersForTwo = arrayNumbers.map(number => number * 2);
+console.log(numbersForTwo);
+
 
 
 
