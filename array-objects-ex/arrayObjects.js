@@ -66,3 +66,23 @@ const student = {
 
 console.log(`${student.firstname} ${student.lastname}`);
 console.log(`Voto matematica: ${student.votes.math}`);
+
+// Esercizio 5: Rimuovere proprietà
+
+// Crea un oggetto product con le seguenti proprietà:
+// name: "Laptop"
+// price: 1200
+// available: true
+// code: "LP-XYZ-789"
+// Elimina la proprietà code dall'oggetto product.
+// Stampa l'oggetto product in console per verificare che la proprietà codice non ci sia più.
+
+const product = {
+    name: "Laptop",
+    price: 1200,
+    available: true,
+    code: "LP-XYZ-789"
+}
+
+delete product.code;
+console.log(product);
