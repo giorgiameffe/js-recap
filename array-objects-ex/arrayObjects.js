@@ -16,3 +16,13 @@ const book = {
 console.log(book.title);
 console.log(book["author"]);
 
+// Esercizio 2: Aggiungere e modificare proprietà 
+
+// Prendi l'oggetto libro creato nell'Esercizio 1.
+// Aggiungi una nuova proprietà chiamata genre (stringa, es: "Fantasy") e assegnala un valore.
+// Modifica il valore di annoPubblicazione a un anno diverso (es: 1965).
+// Stampa l'intero oggetto libro in console per vedere le modifiche.
+
+book.genre = "Romance";
+book.publicationYear = 2025;
+console.log(book);
