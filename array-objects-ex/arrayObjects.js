@@ -44,3 +44,25 @@ const cat = {
 }
 
 cat.meows();
+
+// Esercizio 4: Oggetti annidati
+
+// Crea un oggetto chiamato student con le seguenti proprietà:
+// firstname (stringa, es: "Anna")
+// lastname (stringa, es: "Verdi")
+// votes (un oggetto annidato con proprietà per diverse materie, es: { math: 8, history: 7, english: 9 })
+// Stampa in console il nome e cognome dello studente.
+// Stampa in console il voto di matematica dello studente.
+
+const student = {
+    firstname: "Giorgia",
+    lastname: "Meffe",
+    votes: {
+        math: 8,
+        history: 7,
+        english: 9
+    }
+}
+
+console.log(`${student.firstname} ${student.lastname}`);
+console.log(`Voto matematica: ${student.votes.math}`);
