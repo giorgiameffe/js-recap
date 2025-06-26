@@ -92,6 +92,7 @@ console.log(product);
 // Esercizi con Array di Oggetti
 
 // Esercizio 1: Trovare oggetti specifici
+
 // Hai un array di prodotti. Trova tutti i prodotti con un prezzo inferiore a 50 euro e restituiscili in un nuovo array.
 
 const products = [
@@ -122,3 +123,29 @@ for (let i = 0; i < products.length; i++) {
 }
 
 console.log(newArrayProducts);
+
+// Esercizio 2: Modificare le proprietà degli oggetti
+
+// Per ogni libro nel seguente array, aggiungi una nuova proprietà disponibile impostata su true.
+
+const books = [
+    { title: 'Il Signore degli Anelli', author: 'J.R.R. Tolkien', year: 1954 },
+    { title: '1984', author: 'George Orwell', year: 1949 },
+    { title: 'Orgoglio e Pregiudizio', author: 'Jane Austen', year: 1813 }
+];
+
+// ciclo for
+
+for (let i = 0; i < books.length; i++) {
+    books[i].available = true;
+}
+
+console.log(books);
+
+// metodo Map
+
+const booksAvailable = books.map(book => {
+    return { ...book, available: true };
+});
+
+console.log(books);
