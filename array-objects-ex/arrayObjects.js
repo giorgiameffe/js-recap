@@ -26,3 +26,21 @@ console.log(book["author"]);
 book.genre = "Romance";
 book.publicationYear = 2025;
 console.log(book);
+
+// Esercizio 3: Aggiungere una funzione (metodo) a un oggetto.
+
+// Crea un oggetto chiamato cat con le seguenti proprietà:
+// name (stringa, es: "Whiskers")
+// age (numero, es: 3)
+// Aggiungi un metodo chiamato meows a questo oggetto. Quando viene chiamato, questo metodo dovrebbe stampare in console: "Meow! Il mio nome è [nome del gatto]."
+// Chiama il metodo meows dell'oggetto cat.
+
+const cat = {
+    name: "Margot",
+    age: 5,
+    meows: function Meows() {
+        console.log(`Meow! Il mio nome è ${cat.name}.`)
+    }
+}
+
+cat.meows();
