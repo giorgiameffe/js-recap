@@ -22,3 +22,16 @@ function sumNumbers(num1, num2) {
 
 console.log(sumNumbers(2, 7));
 
+// Esercizio 3: Verifica Maggiore Età
+
+// Crea una funzione chiamata isAdult che accetta un parametro: age.
+// La funzione deve restituire true se age è maggiore o uguale a 18, altrimenti deve restituire false.
+// Chiama la funzione isAdult con un'età che rende true e una che rende false (es. 20 e 16).
+// Stampa entrambi i risultati in console.
+
+function isAdult(age) {
+    return age >= 18;
+}
+
+console.log(isAdult(16));
+console.log(isAdult(20));
