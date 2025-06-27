@@ -59,3 +59,20 @@ function calculateAreaRectangle(base, height) {
 }
 
 console.log(calculateAreaRectangle(7, 4));
+
+// Esercizio 6: Calcolo Media Ponderata
+
+// Crea una funzione chiamata calcolaMediaPonderata che accetta quattro parametri: vote1, weight1, vote2, weight2.
+// La funzione deve calcolare la media ponderata dei due voti utilizzando la seguente formula:
+
+// Media= (voto1×peso1)+(voto2×peso2) / peso1+peso2
+
+// La funzione deve restituire il valore della media ponderata.
+
+function calculateWeightedAverage(vote1, weight1, vote2, weight2) {
+
+    const average = ((vote1 * weight1) + (vote2 * weight2)) / (weight1 + weight2)
+    return average;
+}
+
+console.log(calculateWeightedAverage(7, 0.4, 9, 0.6));
