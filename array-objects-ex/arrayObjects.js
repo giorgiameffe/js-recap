@@ -56,3 +56,21 @@ const booksAvailable = books.map(book => {
 });
 
 console.log(books);
+
+// Esercizio 3: Creazione e Accesso
+
+// Dichiara un array e inizializzalo con tre oggetti prodotto:
+// Prodotto 1: "Laptop", 1200.00, true
+// Prodotto 2: "Mouse", 25.50, true
+// Prodotto 3: "Tastiera", 75.00, false
+// Accedi e stampa nel terminale (usando console.log) il nome del secondo prodotto.
+// Accedi e stampa se il terzo prodotto è disponibile o meno.
+
+const itProducts = [
+    { name: "Laptop", price: 1200.00, available: true },
+    { name: "Mouse", price: 25.50, available: true },
+    { name: "Tastiera", price: 75.00, available: false }
+]
+
+console.log(`Nome del secondo prodotto: ${itProducts[1].name}`);
+console.log(`Il prodotto è disponibile? ${itProducts[2].available}`);
