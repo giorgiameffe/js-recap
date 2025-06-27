@@ -67,9 +67,9 @@ console.log(books);
 // Accedi e stampa se il terzo prodotto è disponibile o meno.
 
 const itProducts = [
-    { name: "Laptop", price: 1200.00, available: true },
-    { name: "Mouse", price: 25.50, available: true },
-    { name: "Tastiera", price: 75.00, available: false }
+    { name: 'Laptop', price: 1200.00, available: true },
+    { name: 'Mouse', price: 25.50, available: true },
+    { name: 'Tastiera', price: 75.00, available: false }
 ]
 
 console.log(`Nome del secondo prodotto: ${itProducts[1].name}`);
@@ -83,7 +83,7 @@ console.log(`Il prodotto è disponibile? ${itProducts[2].available}`);
 // Stampa l'intero array per verificare le modifiche.
 
 const newProduct = {
-    name: "Monitor",
+    name: 'Monitor',
     price: 300.00,
     available: true
 }
@@ -93,3 +93,25 @@ console.log(itProducts);
 
 itProducts.pop();
 console.log(itProducts);
+
+// Esercizio 5: Iterazione e Filtro 
+
+// Dichiara un array chiamato users con almeno 4 oggetti user a tua scelta. Assicurati che alcuni utenti abbiano età diverse.
+// Itera sull'array users e stampa il nome e l'eta di ogni utente utilizzando un ciclo for...of o forEach.
+// Crea un nuovo array chiamato adultUsers che contenga solo gli utenti con eta maggiore o uguale a 18. 
+// Stampa questo nuovo array.
+
+const users = [
+    { id: 1, name: 'Debora', age: 33 },
+    { id: 2, name: 'Sofia', age: 17 },
+    { id: 3, name: 'Sabrina', age: 56 },
+    { id: 4, name: 'Stefano', age: 42 },
+    { id: 5, name: 'Viola', age: 16 }
+]
+
+users.forEach((user) => {
+    console.log(`Nome: ${user.name}, Età: ${user.age}`);
+})
+
+const adultUsers = users.filter(user => user.age >= 18);
+console.log(adultUsers);
