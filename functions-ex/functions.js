@@ -35,3 +35,15 @@ function isAdult(age) {
 
 console.log(isAdult(16));
 console.log(isAdult(20));
+
+// Esercizio 4: Saluto Personalizzato 
+
+// Crea una funzione chiamata personalizedGreeting che accetta un parametro: name.
+// La funzione deve stampare in console un messaggio di saluto che include il nome fornito, ad esempio: "Ciao, [nome]! Come stai oggi?"
+// Chiama la funzione con il tuo nome o un nome a tua scelta.
+
+function personalizedGreeting(name) {
+    console.log(`Ciao, ${name}! Come stai oggi?`)
+}
+
+personalizedGreeting('Giorgia');
