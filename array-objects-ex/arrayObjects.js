@@ -105,7 +105,7 @@ const users = [
     { id: 1, name: 'Debora', age: 33 },
     { id: 2, name: 'Sofia', age: 17 },
     { id: 3, name: 'Sabrina', age: 56 },
-    { id: 4, name: 'Stefano', age: 42 },
+    { id: 4, name: 'Samuel', age: 42 },
     { id: 5, name: 'Viola', age: 16 }
 ]
 
@@ -115,3 +115,37 @@ users.forEach((user) => {
 
 const adultUsers = users.filter(user => user.age >= 18);
 console.log(adultUsers);
+
+
+// Esercizio 6: Modifica e Ricerca
+
+// Lavoriamo ancora con l'array users dell'esercizio precedente.
+// Trova l'utente con un id specifico (es. id: 2).
+// Una volta trovato, modifica la sua età a 30 (o a un nuovo valore a tua scelta).
+// Stampa l'utente modificato.
+// Cerca un utente per nome (es. "Mario"). Se lo trovi, stampa tutte le sue informazioni.
+// Se non lo trovi, stampa un messaggio appropriato.
+
+const userIdTwo = users.find(user => user.id === 2);
+console.log(userIdTwo);
+
+userIdTwo.age = 30;
+console.log(userIdTwo);
+
+const userSearchName = 'Viola';
+const userToFind = users.find(user => user.name === userSearchName);
+
+if (userToFind) {
+    console.log(`L'utente ${userSearchName} è stato trovato:`, userToFind)
+} else {
+    console.log(`L'utente ${userSearchName} non è stato trovato`)
+}
+
+
+
+
+
+
+
+
+
