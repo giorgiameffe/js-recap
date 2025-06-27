@@ -47,3 +47,15 @@ function personalizedGreeting(name) {
 }
 
 personalizedGreeting('Giorgia');
+
+// Esercizio 5: Calcolo Area Rettangolo
+
+// Crea una funzione per calcolare l'area del rettangolo che accetta due parametri: base e height.
+// La funzione deve calcolare l'area del rettangolo (base * height) e restituire il risultato.
+// Chiama la funzione con valori per base e altezza (es. 7 e 4) e stampa l'area calcolata in console.
+
+function calculateAreaRectangle(base, height) {
+    return base * height
+}
+
+console.log(calculateAreaRectangle(7, 4));
