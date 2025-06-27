@@ -74,3 +74,22 @@ const itProducts = [
 
 console.log(`Nome del secondo prodotto: ${itProducts[1].name}`);
 console.log(`Il prodotto è disponibile? ${itProducts[2].available}`);
+
+// Esercizio 4: Aggiunta e Rimozione
+
+// Continuiamo con l'array dell'esercizio precedente.
+// Aggiungi un nuovo prodotto alla fine dell'array: "Monitor", 300.00, true.
+// Rimuovi l'ultimo prodotto dall'array.
+// Stampa l'intero array per verificare le modifiche.
+
+const newProduct = {
+    name: "Monitor",
+    price: 300.00,
+    available: true
+}
+
+itProducts.push(newProduct);
+console.log(itProducts);
+
+itProducts.pop();
+console.log(itProducts);
