@@ -17,6 +17,7 @@ hiUser();
 // Chiama la funzione con due numeri a tua scelta (es. 5 e 10) e stampa il risultato in console.
 
 function sumNumbers(num1, num2) {
+
     return num1 + num2
 }
 
@@ -30,6 +31,7 @@ console.log(sumNumbers(2, 7));
 // Stampa entrambi i risultati in console.
 
 function isAdult(age) {
+
     return age >= 18;
 }
 
@@ -43,6 +45,7 @@ console.log(isAdult(20));
 // Chiama la funzione con il tuo nome o un nome a tua scelta.
 
 function personalizedGreeting(name) {
+
     console.log(`Ciao, ${name}! Come stai oggi?`)
 }
 
@@ -55,6 +58,7 @@ personalizedGreeting('Giorgia');
 // Chiama la funzione con valori per base e altezza (es. 7 e 4) e stampa l'area calcolata in console.
 
 function calculateAreaRectangle(base, height) {
+
     return base * height
 }
 
@@ -76,3 +80,15 @@ function calculateWeightedAverage(vote1, weight1, vote2, weight2) {
 }
 
 console.log(calculateWeightedAverage(7, 0.4, 9, 0.6));
+
+// Esercizio 4: Funzione per Controllare Pari o Dispari
+
+// Scrivere una funzione che prenda un numero e restituisca true se è pari, false se è dispari.
+
+function isEven(num) {
+
+    return num % 2 === 0;
+}
+
+console.log(isEven(2));
+console.log(isEven(3));
