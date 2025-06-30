@@ -56,13 +56,13 @@ for (let i = fruits.length - 1; i >= 0; i--) {
 
 // Chiedere all'utente un numero e stampare la sua tabellina fino a 10.
 
-// const userNumber = parseInt(prompt('Inserisci un numero'));
+const userNumber = parseInt(prompt('Inserisci un numero'));
 
-// for (let i = 1; i <= 10; i++) {
+for (let i = 1; i <= 10; i++) {
 
-//     const userNumberMultiplication = userNumber * i;
-//     console.log(userNumberMultiplication);
-// }
+    const userNumberMultiplication = userNumber * i;
+    console.log(userNumberMultiplication);
+}
 
 // Esercizio 7: Contare le Vocali in una Stringa
 
