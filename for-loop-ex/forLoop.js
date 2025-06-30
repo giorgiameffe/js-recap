@@ -32,7 +32,7 @@ for (let i = 2; i <= 20; i++) {
 
 // Esercizio 4: Scorrere un Array
 
-// Obiettivo: Stampare tutti gli elementi di un array.
+// Stampare tutti gli elementi di un array.
 
 const fruits = ['anguria', 'mela', 'banana', 'pesca', 'mango'];
 
@@ -41,3 +41,15 @@ for (let i = 0; i < fruits.length; i++) {
     const currentFruit = fruits[i];
     console.log(currentFruit);
 }
+
+// Esercizio 5: Stampa Inversa di un Array
+
+// Stampare gli elementi di un array in ordine inverso.
+
+for (let i = fruits.length - 1; i >= 0; i--) {
+
+    const currentFruit = fruits[i];
+    console.log(currentFruit);
+}
+
+
