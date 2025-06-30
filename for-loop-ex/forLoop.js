@@ -52,4 +52,15 @@ for (let i = fruits.length - 1; i >= 0; i--) {
     console.log(currentFruit);
 }
 
+// Esercizio 6: Tabellina di un Numero
+
+// Chiedere all'utente un numero e stampare la sua tabellina fino a 10.
+
+const userNumber = parseInt(prompt('Inserisci un numero'));
+
+for (let i = 1; i <= 10; i++) {
+
+    const userNumberMultiplication = userNumber * i;
+    console.log(userNumberMultiplication);
+}
 
