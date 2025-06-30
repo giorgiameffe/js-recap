@@ -29,3 +29,15 @@ for (let i = 2; i <= 20; i++) {
         console.log(i);
     }
 }
+
+// Esercizio 4: Scorrere un Array
+
+// Obiettivo: Stampare tutti gli elementi di un array.
+
+const fruits = ['anguria', 'mela', 'banana', 'pesca', 'mango'];
+
+for (let i = 0; i < fruits.length; i++) {
+
+    const currentFruit = fruits[i];
+    console.log(currentFruit);
+}
