@@ -40,7 +40,7 @@ npm init -y
 
 ```
 "scripts": {
-  "array": "node array-ex/esercizio1.js"
+  "dev": "node array-ex/esercizio1.js"
 }
 ```
 
