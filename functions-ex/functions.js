@@ -92,3 +92,11 @@ function isEven(num) {
 
 console.log(isEven(2));
 console.log(isEven(3));
+
+// Esercizio 5: Arrow Function Raddoppia i numeri
+
+// Crea una arrow function che prende un numero come parametro e restituisce il doppio del numero.
+// Usa la funzione per raddoppiare il numero 7 e stampare il risultato.
+
+const doubledNumber = (number) => number * 2;
+console.log(doubledNumber(7));
