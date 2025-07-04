@@ -14,7 +14,7 @@ console.log(fruits[fruits.length - 1]);
 // Aggiungi il numero 4 alla fine dell'array.
 // Aggiungi il numero 0 all'inizio dell'array.
 // Rimuovi l'ultimo elemento dall'array.
-// Rimuovi il primo elemento dall'array. 
+// Rimuovi il primo elemento dall'array.
 // Stampa l'array dopo ogni operazione per vedere le modifiche.
 
 const numbers = [1, 2, 3];
@@ -67,9 +67,9 @@ console.log(cities);
 cities[1] = "Firenze";
 console.log(cities);
 
-// Esercizio 6: Metodo Map 
+// Esercizio 6: Metodo Map
 
-// Dato un array di numeri [1, 2, 3, 4, 5], utilizza il metodo map() per creare un nuovo array in cui ogni numero sia moltiplicato per 2. 
+// Dato un array di numeri [1, 2, 3, 4, 5], utilizza il metodo map() per creare un nuovo array in cui ogni numero sia moltiplicato per 2.
 // Stampa il nuovo array.
 
 const arrayNumbers = [1, 2, 3, 4, 5];
@@ -79,7 +79,7 @@ console.log(numbersForTwo);
 
 // Esercizio 7: Metodo Filter
 
-// Dato l'array di età [12, 18, 25, 6, 30, 16], utilizza il metodo filter() per creare un nuovo array contenente solo le età che sono maggiori o uguali a 18. 
+// Dato l'array di età [12, 18, 25, 6, 30, 16], utilizza il metodo filter() per creare un nuovo array contenente solo le età che sono maggiori o uguali a 18.
 // Stampa il nuovo array.
 
 const ages = [12, 18, 25, 6, 30, 16];
@@ -87,9 +87,9 @@ const ages = [12, 18, 25, 6, 30, 16];
 const filteredAges = ages.filter(age => age >= 18);
 console.log(filteredAges);
 
-// Esercizio 8: Metodo Reduce 
+// Esercizio 8: Metodo Reduce
 
-// Dato un array di prezzi [10.50, 20.00, 5.75, 15.25], utilizza il metodo reduce() per calcolare la somma totale di tutti i prezzi nell'array. 
+// Dato un array di prezzi [10.50, 20.00, 5.75, 15.25], utilizza il metodo reduce() per calcolare la somma totale di tutti i prezzi nell'array.
 // Stampa il risultato.
 
 const prices = [13.00, 20.50, 8.30, 23.50];
@@ -111,9 +111,9 @@ names.forEach((name) => {
     console.log(`Ciao, ${name}`);
 })
 
-// Esercizio 10: Metodo Find 
+// Esercizio 10: Metodo Find
 
-// Dato un array di numeri [7, 3, 10, 5, 12, 8], utilizza il metodo find() per trovare il primo numero pari presente nell'array. 
+// Dato un array di numeri [7, 3, 10, 5, 12, 8], utilizza il metodo find() per trovare il primo numero pari presente nell'array.
 // Stampa il numero trovato o un messaggio se nessun numero pari è stato trovato.
 
 const numbersArray = [7, 3, 10, 5, 12, 8];
@@ -159,6 +159,29 @@ scores.forEach((score) => {
 
 const scoresAverage = sum / scores.length;
 console.log(scoresAverage);
+
+// Esercizio 13: Filtra e trasforma numeri
+
+// Crea un array di numeri interi da 1 a 10.
+// Usa .filter() per tenere solo i numeri pari.
+// Usa .map() per raddoppiare i numeri filtrati.
+// Usa .forEach() per stampare ciascun numero risultante.
+
+{
+    const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+    const filteredNumbers = numbers.filter(number => number % 2 === 0);
+    console.log(filteredNumbers);
+
+    const doubledNumbers = filteredNumbers.map(number => number * 2);
+    console.log(doubledNumbers);
+
+    doubledNumbers.forEach((number) => {
+        console.log(number);
+    })
+}
+
+
 
 
 
