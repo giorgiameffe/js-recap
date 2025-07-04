@@ -86,3 +86,24 @@ const product = {
 
 delete product.code;
 console.log(product);
+
+// Esercizio 6: Modifica un oggetto persona
+// Hai un oggetto person con le seguenti proprietà: name, age, job
+
+// Stampa un messaggio con il nome e l'età,
+// Cambia il valore dell'occupazione in "Sviluppatore".
+// Aggiungi una nuova proprietà chiamata hobby con valore "lettura".
+// Stampa l’oggetto aggiornato.
+
+const person = {
+    name: 'Ambra',
+    age: 30,
+    job: 'Estetista'
+}
+
+console.log(`Il nome è ${person.name} e l'età corrisponde a ${person.age} anni`);
+
+person.job = 'Sviluppatore';
+person.hobby = 'lettura';
+
+console.log(person);
