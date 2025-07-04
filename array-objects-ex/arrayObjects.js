@@ -141,6 +141,35 @@ if (userToFind) {
     console.log(`L'utente ${userSearchName} non è stato trovato`)
 }
 
+// Esercizio 7: Calcola il prezzo totale dei prodotti disponibili
+
+// Dato un array di prodotti, in cui ogni prodotto è un oggetto con: name, price, available
+// Trova solo i prodotti disponibili
+// Calcola il prezzo totale di questi prodotti.
+// Stampa il totale. 
+
+{
+    const products = [
+        { name: "Laptop ASUS", price: 899.99, available: true },
+        { name: "Mouse Wireless Logitech", price: 25.50, available: false },
+        { name: "Tastiera Meccanica RGB", price: 120.00, available: true },
+        { name: "Monitor Curvo Samsung", price: 349.99, available: true }
+    ]
+
+    const availableProducts = products.filter(product => product.available === true);
+    console.log(availableProducts);
+
+    const sumPrices = availableProducts.reduce((accumulator, currentValue) => {
+
+        return accumulator + currentValue.price;
+    }, 0)
+
+    console.log(`Il totale è ${sumPrices}`)
+
+}
+
+
+
 
 
 
