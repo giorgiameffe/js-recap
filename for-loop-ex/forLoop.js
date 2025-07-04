@@ -56,13 +56,13 @@ for (let i = fruits.length - 1; i >= 0; i--) {
 
 // Chiedere all'utente un numero e stampare la sua tabellina fino a 10.
 
-const userNumber = parseInt(prompt('Inserisci un numero'));
+// const userNumber = parseInt(prompt('Inserisci un numero'));
 
-for (let i = 1; i <= 10; i++) {
+// for (let i = 1; i <= 10; i++) {
 
-    const userNumberMultiplication = userNumber * i;
-    console.log(userNumberMultiplication);
-}
+//     const userNumberMultiplication = userNumber * i;
+//     console.log(userNumberMultiplication);
+// }
 
 // Esercizio 7: Contare le Vocali in una Stringa
 
@@ -83,4 +83,25 @@ for (let i = 0; i < string.length; i++) {
 }
 
 console.log(`Le vocali presenti sono ${count}`);
+
+// Esercizio 8: Somma dei numeri pari da 1 a 20
+
+// Usa un ciclo for per trovare tutti i numeri pari tra 1 e 20.
+// Somma tutti quei numeri.
+// Alla fine, stampa la somma totale.
+
+{
+    let sum = 0;
+
+    for (let i = 1; i <= 20; i++) {
+
+        if (i % 2 === 0) {
+            sum += i;
+        }
+    }
+
+    console.log(sum);
+}
+
+
 
