@@ -102,6 +102,3 @@ console.log(`Le vocali presenti sono ${count}`);
 
     console.log(sum);
 }
-
-
-

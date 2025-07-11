@@ -167,14 +167,3 @@ if (userToFind) {
     console.log(`Il totale è ${sumPrices}`)
 
 }
-
-
-
-
-
-
-
-
-
-
-
