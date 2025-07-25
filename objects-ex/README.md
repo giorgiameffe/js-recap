@@ -17,31 +17,6 @@ Questa cartella contiene esercizi dedicati alla creazione e manipolazione di **o
 
 ---
 
-## ▶️ Come eseguire gli esercizi
-
-1. Assicurati di avere [Node.js](https://nodejs.org) installato.
-2. Inizializza `npm` (se non l’hai già fatto):
-
-```bash
-npm init -y
-```
-
-3. Aggiungi uno script nel `package.json`, ad esempio:
-
-```json
-"scripts": {
-  "dev": "node objects-ex/objects.js"
-}
-```
-
-4. Esegui lo script con:
-
-```bash
-npm run dev
-```
-
----
-
 ## 🎯 Obiettivi didattici
 
 * Imparare a definire e manipolare oggetti in JavaScript

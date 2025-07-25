@@ -23,31 +23,6 @@ Questa cartella contiene una serie di esercizi per praticare l'uso degli **array
 
 ---
 
-## ▶️ Come eseguire gli esercizi 
-
-Per eseguire gli esercizi con `npm`, segui questi passaggi:
-
-1. Assicurati di avere [Node.js](https://nodejs.org) installato.
-2. Nella root del progetto, inizializza `npm` (solo la prima volta):
-
-```
-npm init -y
-```
-
-3. Aggiungi uno script nel tuo package.json, ad esempio:
-
-```
-"scripts": {
-  "dev": "node array-ex/array.js"
-}
-```
-
-4. Esegui lo script con:
-
-```
-npm run dev
-```
-
 ## 🎯 Obiettivi didattici
 
 - Comprendere come funzionano gli array in JavaScript

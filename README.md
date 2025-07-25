@@ -17,51 +17,17 @@ Ogni cartella contiene esempi ed esercizi su un tema specifico, pensati per cons
 
 ---
 
-## ✅ Come usare questa repo
-
-1. **Clona il progetto**:
-
-```
-git clone https://github.com/giorgiameffe/javascript-exercises.git
-cd javascript-exercises
-```
-
-2. **Apri la cartella in un editor come Visual Studio Code**
-
-3. **Esecuzione dei file .js tramite ```npm run```**
-
-- Esegui:
-
-```
-npm init -y
-```
-
-- Aggiungi script nel package.json:
-
-```
-"scripts": {
-  "dev": "node array-ex/esercizio1.js"
-}
-```
-
-- Esegui lo script con:
-
-```
-npm run dev
-```
----
-
 ## 🎯 Obiettivo
 
-- Ripassare le conoscenze JavaScript
-- Rafforzare la logica di programmazione
-- Praticare la scrittura di codice chiaro e modulare
+- **Ripassare** le conoscenze JavaScript
+- **Rafforzare** la logica di programmazione
+- **Praticare** la scrittura di codice chiaro e modulare
 
 ---
 
 ## 🔧 Requisiti
 
-- Node.js installato (per eseguire gli script)
-- Visual Studio Code consigliato come editor
+- *Node.js* installato (per eseguire gli script)
+- *Visual Studio Code* consigliato come editor
 
 

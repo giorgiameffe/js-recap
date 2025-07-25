@@ -19,31 +19,6 @@ Questa cartella contiene esercizi base per imparare a usare il ciclo `for` in Ja
 
 ---
 
-## ▶️ Come eseguire gli esercizi
-
-1. Assicurati di avere [Node.js](https://nodejs.org) installato.
-2. Nella root del progetto, inizializza `npm` se non l’hai già fatto:
-
-```bash
-npm init -y
-```
-
-3. Aggiungi uno script nel `package.json`, ad esempio:
-
-```json
-"scripts": {
-  "dev": "node for-loop-ex/forLoop.js"
-}
-```
-
-4. Esegui con:
-
-```bash
-npm run dev
-```
-
----
-
 ## 🎯 Obiettivi didattici
 
 * Apprendere la sintassi e l’uso del ciclo `for`

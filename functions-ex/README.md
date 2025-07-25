@@ -19,31 +19,6 @@ Questa cartella contiene esercizi base per imparare a definire e utilizzare funz
 
 ---
 
-## ▶️ Come eseguire gli esercizi
-
-1. Assicurati di avere [Node.js](https://nodejs.org) installato.
-2. Nella root del progetto, inizializza `npm` se non l’hai già fatto:
-
-```bash
-npm init -y
-```
-
-3. Aggiungi uno script nel `package.json`, ad esempio:
-
-```json
-"scripts": {
-  "dev": "node functions-ex/functions.js"
-}
-```
-
-4. Esegui con:
-
-```bash
-npm run dev
-```
-
----
-
 ## 🎯 Obiettivi didattici
 
 * Comprendere la sintassi e la struttura di una funzione in JavaScript
