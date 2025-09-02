@@ -9,12 +9,18 @@ Gli esercizi permettono di comprendere come **definire, chiamare e utilizzare fu
 
 Gli esercizi attuali includono:
 
-- **Funzioni senza parametri** per stampare messaggi semplici.  
+- **Funzioni senza parametri** per stampare messaggi semplici.
+
 - **Funzioni con parametri** per eseguire operazioni come somma o calcolo di area.  
+
 - **Funzioni con valori di ritorno** per restituire risultati calcolati.  
-- **Verifica di condizioni** tramite funzioni (`isAdult`, `isEven`).  
+
+- **Verifica di condizioni** tramite funzioni (`isAdult`, `isEven`).
+
 - **Arrow functions** per scrivere funzioni compatte.  
-- **Calcoli matematici** come media ponderata e raddoppio di numeri.  
+
+- **Calcoli matematici** come media ponderata e raddoppio di numeri. 
+ 
 - **Funzioni personalizzate** che stampano messaggi con input dell’utente.
 
 ---

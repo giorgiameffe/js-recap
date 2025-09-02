@@ -9,11 +9,16 @@ Gli esercizi permettono di comprendere come strutturare e gestire dati complessi
 
 Gli esercizi attuali includono:
 
-- **Creazione di oggetti** con proprietà di diversi tipi (stringhe, numeri, booleani).  
+- **Creazione di oggetti** con proprietà di diversi tipi (stringhe, numeri, booleani). 
+
 - **Accesso alle proprietà** usando notazione a punti e parentesi quadre.  
+
 - **Aggiunta, modifica e rimozione di proprietà** di un oggetto.  
-- **Aggiunta di metodi** agli oggetti e chiamata di funzioni interne.  
-- **Oggetti annidati** per rappresentare dati strutturati più complessi.  
+
+- **Aggiunta di metodi** agli oggetti e chiamata di funzioni interne. 
+
+- **Oggetti annidati** per rappresentare dati strutturati più complessi. 
+ 
 - **Stampa di informazioni** in console per verificare le modifiche.
 
 ---
