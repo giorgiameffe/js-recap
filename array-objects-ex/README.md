@@ -1,26 +1,40 @@
-# 📚 Esercizi JavaScript – Array di Oggetti
+# 💻 Esercizi JavaScript - Array di Oggetti 📄
 
-Questa cartella contiene una serie di esercizi per praticare l'uso degli **array di oggetti** in JavaScript. Gli esercizi coprono operazioni base come filtraggio, modifica, ricerca, iterazione e calcolo su array di oggetti.
-
----
-
-## 📝 Elenco Esercizi
-
-| # | Descrizione                                                                         |
-| - | ----------------------------------------------------------------------------------- |
-| 1 | Trovare oggetti con prezzo inferiore a 50 euro                                      |
-| 2 | Aggiungere una proprietà a tutti gli oggetti in un array                            |
-| 3 | Creare un array di oggetti e accedere a proprietà specifiche                        |
-| 4 | Aggiungere e rimuovere oggetti da un array                                          |
-| 5 | Iterare su un array e filtrare elementi in base a una condizione                    |
-| 6 | Cercare un oggetto per proprietà, modificarlo e gestire casi di oggetto non trovato |
-| 7 | Calcolare il prezzo totale di oggetti disponibili                                   |
+Questa cartella è dedicata alla **pratica e all'apprendimento degli array di oggetti** in JavaScript, una struttura dati fondamentale per gestire collezioni di elementi complessi.           
+Gli esercizi sono organizzati in due sottocartelle principali, permettendo uno studio **progressivo e strutturato** dei concetti.
 
 ---
 
-## 🎯 Obiettivi didattici
+## 🧩 Sottocartella `basics`
 
-* Imparare a lavorare con array di oggetti in JavaScript
-* Utilizzare metodi come `filter()`, `map()`, `forEach()`, `find()`, `reduce()`
-* Esercitarsi con l’accesso e la modifica di proprietà degli oggetti
-* Capire come iterare e trasformare dati strutturati in array
+Questa sezione contiene esercizi sulle **operazioni più elementari sugli array di oggetti**, ideali per chi inizia a lavorare con dati strutturati.  
+
+**Concetti trattati:**
+
+- Creazione e inizializzazione di array di oggetti  
+- Accesso agli elementi tramite indice  
+- Aggiunta e rimozione di oggetti (`.push()`, `.pop()`)  
+- Stampa dei valori delle proprietà con `console.log`  
+
+---
+
+## 🚀 Sottocartella `advanced`
+
+Questa sezione è dedicata ai **metodi avanzati per lavorare con array di oggetti**, combinando filtri, trasformazioni, ricerche e calcoli aggregati.  
+
+**Concetti trattati:**
+
+- **Filtraggio** di oggetti tramite `.filter()` o cicli `for`  
+- **Trasformazione** di oggetti con `.map()`  
+- **Iterazione e stampa** con `forEach` o cicli `for...of`  
+- **Ricerca di elementi** con `.find()`  
+- **Riduzione e calcoli aggregati** con `.reduce()`  
+
+---
+
+## 🛠️ Come Utilizzare gli Esercizi
+
+1. Aprire il file `index.html` presente in ciascuna sottocartella.  
+2. Assicurarsi che `script.js` sia correttamente collegato.  
+3. Aprire la **console del browser** (tasto destro → "Ispeziona" → "Console") per visualizzare i risultati.  
+4. Modificare ed eseguire il codice per sperimentare con nuovi dati o condizioni.
