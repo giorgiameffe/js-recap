@@ -57,44 +57,7 @@ const booksAvailable = books.map(book => {
 
 console.log(books);
 
-// Esercizio 3: Creazione e Accesso
-
-// Dichiara un array e inizializzalo con tre oggetti prodotto:
-// Prodotto 1: "Laptop", 1200.00, true
-// Prodotto 2: "Mouse", 25.50, true
-// Prodotto 3: "Tastiera", 75.00, false
-// Accedi e stampa nel terminale (usando console.log) il nome del secondo prodotto.
-// Accedi e stampa se il terzo prodotto è disponibile o meno.
-
-const itProducts = [
-    { name: 'Laptop', price: 1200.00, available: true },
-    { name: 'Mouse', price: 25.50, available: true },
-    { name: 'Tastiera', price: 75.00, available: false }
-]
-
-console.log(`Nome del secondo prodotto: ${itProducts[1].name}`);
-console.log(`Il prodotto è disponibile? ${itProducts[2].available}`);
-
-// Esercizio 4: Aggiunta e Rimozione
-
-// Continuiamo con l'array dell'esercizio precedente.
-// Aggiungi un nuovo prodotto alla fine dell'array: "Monitor", 300.00, true.
-// Rimuovi l'ultimo prodotto dall'array.
-// Stampa l'intero array per verificare le modifiche.
-
-const newProduct = {
-    name: 'Monitor',
-    price: 300.00,
-    available: true
-}
-
-itProducts.push(newProduct);
-console.log(itProducts);
-
-itProducts.pop();
-console.log(itProducts);
-
-// Esercizio 5: Iterazione e Filtro 
+// Esercizio 3: Iterazione e Filtro 
 
 // Dichiara un array chiamato users con almeno 4 oggetti user a tua scelta. Assicurati che alcuni utenti abbiano età diverse.
 // Itera sull'array users e stampa il nome e l'eta di ogni utente utilizzando un ciclo for...of o forEach.
@@ -117,7 +80,7 @@ const adultUsers = users.filter(user => user.age >= 18);
 console.log(adultUsers);
 
 
-// Esercizio 6: Modifica e Ricerca
+// Esercizio 4: Modifica e Ricerca
 
 // Lavoriamo ancora con l'array users dell'esercizio precedente.
 // Trova l'utente con un id specifico (es. id: 2).
@@ -141,7 +104,7 @@ if (userToFind) {
     console.log(`L'utente ${userSearchName} non è stato trovato`)
 }
 
-// Esercizio 7: Calcola il prezzo totale dei prodotti disponibili
+// Esercizio 5: Calcola il prezzo totale dei prodotti disponibili
 
 // Dato un array di prodotti, in cui ogni prodotto è un oggetto con: name, price, available
 // Trova solo i prodotti disponibili
