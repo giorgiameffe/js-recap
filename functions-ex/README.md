@@ -1,27 +1,27 @@
-# 📚 Esercizi JavaScript – Funzioni
+# 🛠️ Esercizi JavaScript - Funzioni
 
-Questa cartella contiene esercizi base per imparare a definire e utilizzare funzioni in JavaScript. Gli esercizi coprono funzioni semplici, parametri, valori di ritorno e arrow functions.
-
----
-
-## 📝 Elenco Esercizi
-
-| # | Descrizione                                                       |
-| - | ----------------------------------------------------------------- |
-| 1 | Funzione senza parametri che stampa un messaggio di benvenuto     |
-| 2 | Funzione che somma due numeri e restituisce il risultato          |
-| 3 | Funzione che verifica se una persona è maggiorenne                |
-| 4 | Funzione che stampa un saluto personalizzato con il nome          |
-| 5 | Calcolo dell’area di un rettangolo tramite funzione               |
-| 6 | Calcolo della media ponderata di due voti                         |
-| 7 | Funzione che verifica se un numero è pari o dispari               |
-| 8 | Arrow function che raddoppia un numero e restituisce il risultato |
+Questa cartella contiene esercizi dedicati alle **funzioni in JavaScript**, incluse sia **funzioni tradizionali** che **arrow functions**.     
+Gli esercizi permettono di comprendere come **definire, chiamare e utilizzare funzioni** con diversi tipi di parametri e logiche.
 
 ---
 
-## 🎯 Obiettivi didattici
+## 📚 Contenuti
 
-* Comprendere la sintassi e la struttura di una funzione in JavaScript
-* Imparare a lavorare con parametri e valori di ritorno
-* Approfondire le funzioni arrow e il loro utilizzo sintetico
-* Applicare le funzioni a semplici problemi matematici e logici
+Gli esercizi attuali includono:
+
+- **Funzioni senza parametri** per stampare messaggi semplici.  
+- **Funzioni con parametri** per eseguire operazioni come somma o calcolo di area.  
+- **Funzioni con valori di ritorno** per restituire risultati calcolati.  
+- **Verifica di condizioni** tramite funzioni (`isAdult`, `isEven`).  
+- **Arrow functions** per scrivere funzioni compatte.  
+- **Calcoli matematici** come media ponderata e raddoppio di numeri.  
+- **Funzioni personalizzate** che stampano messaggi con input dell’utente.
+
+---
+
+## 🛠️ Come Utilizzare gli Esercizi
+
+1. Aprire il file `index.html`.  
+2. Assicurarsi che `script.js` sia collegato correttamente.  
+3. Aprire la **console del browser** (tasto destro → "Ispeziona" → "Console") per visualizzare i risultati.  
+4. Modificare ed eseguire il codice per testare nuove funzioni o parametri.

@@ -1,27 +1,27 @@
-# 📚 Esercizi JavaScript – Ciclo For
+# 🔁 Esercizi JavaScript - Cicli For
 
-Questa cartella contiene esercizi base per imparare a usare il ciclo `for` in JavaScript. Gli esercizi spaziano da semplici conti e iterazioni su numeri a operazioni su stringhe e array.
-
----
-
-## 📝 Elenco Esercizi
-
-| # | Descrizione                                           |
-| - | ----------------------------------------------------- |
-| 1 | Conto alla rovescia da 10 a 1                         |
-| 2 | Somma di tutti i numeri interi da 1 a 100             |
-| 3 | Stampa dei numeri pari da 2 a 20                      |
-| 4 | Iterazione e stampa di tutti gli elementi di un array |
-| 5 | Stampa inversa degli elementi di un array             |
-| 6 | Stampa della tabellina di un numero (input utente)    |
-| 7 | Conta delle vocali in una stringa                     |
-| 8 | Somma dei numeri pari da 1 a 20                       |
+Questa cartella contiene esercizi dedicati all'utilizzo del **ciclo `for`** in JavaScript.  
+Gli esercizi coprono sia **operazioni numeriche** sia **scorrimento e manipolazione di array e stringhe**.
 
 ---
 
-## 🎯 Obiettivi didattici
+## 📚 Contenuti
 
-* Apprendere la sintassi e l’uso del ciclo `for`
-* Esercitarsi con iterazioni numeriche semplici e condizionali
-* Imparare a lavorare con array e stringhe tramite cicli
-* Capire come accumulare valori tramite somme e contatori
+Gli esercizi includono:
+
+- **Conteggi e conti alla rovescia** con ciclo `for`.  
+- **Somma di numeri** in un intervallo.  
+- **Stampa di numeri pari** entro un range specifico.  
+- **Iterazione su array** per stampare elementi in ordine normale o inverso.  
+- **Creazione di tabelline** (moltiplicazioni).  
+- **Analisi di stringhe**, come il conteggio delle vocali.  
+- **Somma di valori filtrati**, ad esempio numeri pari.  
+
+---
+
+## 🛠️ Come Utilizzare gli Esercizi
+
+1. Aprire il file `index.html`.  
+2. Assicurarsi che `script.js` sia collegato correttamente.  
+3. Aprire la **console del browser** (tasto destro → "Ispeziona" → "Console") per visualizzare i risultati.  
+4. Modificare ed eseguire il codice per sperimentare con nuovi array, numeri o stringhe.

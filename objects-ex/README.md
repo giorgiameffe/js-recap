@@ -1,26 +1,26 @@
-# 📚 Esercizi JavaScript – Oggetti
+# 🗂️ Esercizi JavaScript - Oggetti
 
-Questa cartella contiene esercizi dedicati alla creazione e manipolazione di **oggetti** in JavaScript. Gli esercizi coprono la definizione di proprietà, metodi, oggetti annidati, aggiunta, modifica e rimozione di proprietà.
-
----
-
-## 📝 Elenco Esercizi
-
-| # | Descrizione                                                                              |
-| - | ---------------------------------------------------------------------------------------- |
-| 1 | Creare un oggetto e accedere ai suoi valori tramite notazione a punto e parentesi quadre |
-| 2 | Aggiungere nuove proprietà e modificare proprietà esistenti                              |
-| 3 | Aggiungere metodi (funzioni) a un oggetto e invocarli                                    |
-| 4 | Gestire oggetti annidati e accedere ai valori interni                                    |
-| 5 | Rimuovere proprietà da un oggetto                                                        |
-| 6 | Modificare un oggetto esistente, aggiornare valori e aggiungere nuove proprietà          |
+Questa cartella contiene esercizi dedicati agli **oggetti in JavaScript**, incluse operazioni di creazione, modifica, accesso alle proprietà e metodi.  
+Gli esercizi permettono di comprendere come strutturare e gestire dati complessi in forma di oggetti.
 
 ---
 
-## 🎯 Obiettivi didattici
+## 📚 Contenuti
 
-* Imparare a definire e manipolare oggetti in JavaScript
-* Apprendere la differenza tra notazione punto e parentesi quadre per l’accesso ai dati
-* Saper aggiungere metodi agli oggetti e utilizzarli
-* Gestire oggetti annidati e lavorare con proprietà complesse
-* Modificare e rimuovere proprietà dinamicamente
+Gli esercizi attuali includono:
+
+- **Creazione di oggetti** con proprietà di diversi tipi (stringhe, numeri, booleani).  
+- **Accesso alle proprietà** usando notazione a punti e parentesi quadre.  
+- **Aggiunta, modifica e rimozione di proprietà** di un oggetto.  
+- **Aggiunta di metodi** agli oggetti e chiamata di funzioni interne.  
+- **Oggetti annidati** per rappresentare dati strutturati più complessi.  
+- **Stampa di informazioni** in console per verificare le modifiche.
+
+---
+
+## 🛠️ Come Utilizzare gli Esercizi
+
+1. Aprire il file `index.html`.  
+2. Assicurarsi che `script.js` sia collegato correttamente.  
+3. Aprire la **console del browser** (tasto destro → "Ispeziona" → "Console") per visualizzare i risultati.  
+4. Modificare ed eseguire il codice per sperimentare con nuovi oggetti, proprietà e metodi.
