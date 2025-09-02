@@ -25,9 +25,9 @@ Ogni cartella contiene esempi ed esercizi su un tema specifico, pensati per cons
 
 ---
 
-## 🔧 Requisiti
+## 🛠️ Come Utilizzare gli Esercizi
 
-- *Node.js* installato (per eseguire gli script)
-- *Visual Studio Code* consigliato come editor
-
-
+1. Aprire il file `index.html`.  
+2. Assicurarsi che `script.js` sia collegato correttamente.  
+3. Aprire la **console del browser** (tasto destro → "Ispeziona" → "Console") per visualizzare i risultati.  
+4. Modificare ed eseguire il codice per sperimentare con nuovi oggetti, proprietà e metodi.
