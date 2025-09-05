@@ -33,9 +33,13 @@ console.log(squareNumbers);
 
 
 // Esercizio 4: Metodo Map - Aggiungi un simbolo
-// Dato un array di parole ["cane", "gatto", "uccello"], usa map()
+// Dato un array di parole ["apple", "pear", "watermelon"], usa map()
 // per creare un nuovo array aggiungendo un "!" alla fine di ogni parola.
 
+const fruits = ["apple", "pear", "watermelon"];
+
+const fruitsWithExclamationMark = fruits.map(fruit => `${fruit}!`);
+console.log(fruitsWithExclamationMark);
 
 
 // Esercizio 5: Metodo Map - Lunghezza delle stringhe
