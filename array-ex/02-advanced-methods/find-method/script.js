@@ -13,3 +13,9 @@ if (evenNumber != undefined) {
 } else {
     console.log("Nessun numero pari presente")
 }
+
+// Esercizio 2: Trova il primo numero grande
+// Usa find per ottenere il primo numero maggiore di 10
+
+const findNumber = numbersArray.find(number => number > 10);
+console.log(findNumber);
