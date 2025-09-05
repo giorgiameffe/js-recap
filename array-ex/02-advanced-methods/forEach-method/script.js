@@ -30,3 +30,10 @@ scores.forEach((score) => {
 
     sum += score;
 })
+
+// Esercizio 3: Stampa ogni numero
+// Usa forEach per stampare ogni numero seguito da " è un numero"
+
+const numbers = [2, 5, 9, 4];
+
+numbers.forEach(number => console.log(`${number} è un numero`));
