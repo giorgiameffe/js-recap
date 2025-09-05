@@ -12,3 +12,16 @@ const priceAddition = prices.reduce((accumulator, currentValue) => {
 })
 
 console.log(priceAddition);
+
+// Esercizio 2: Somma dei numeri dell'array
+// Dato l'array numeri, usa reduce per calcolare la somma totale
+// e stampa un messaggio del tipo "La somma dei numeri è: ..."
+
+const numbers = [2, 7, 5, 1];
+
+const numbersAddition = numbers.reduce((accumulator, currentValue) => {
+
+    return accumulator += currentValue
+})
+
+console.log(`La somma dei numeri è ${numbersAddition}`);
