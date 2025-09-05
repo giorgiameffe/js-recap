@@ -16,16 +16,25 @@ console.log(filteredAges);
 // Usa .map() per raddoppiare i numeri filtrati.
 // Usa .forEach() per stampare ciascun numero risultante.
 
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+const filteredNumbers = numbers.filter(number => number % 2 === 0);
+console.log(filteredNumbers);
+
+const doubledNumbers = filteredNumbers.map(number => number * 2);
+console.log(doubledNumbers);
+
+doubledNumbers.forEach((number) => {
+    console.log(number);
+})
+
+// Esercizio 3: Filtra numeri grandi
+// Usa filter per creare un array con i numeri maggiori di 20.
+
 {
-    const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    const numbers = [13, 5, 22, 9, 30, 40];
 
-    const filteredNumbers = numbers.filter(number => number % 2 === 0);
+    const filteredNumbers = numbers.filter(number => number > 20);
     console.log(filteredNumbers);
-
-    const doubledNumbers = filteredNumbers.map(number => number * 2);
-    console.log(doubledNumbers);
-
-    doubledNumbers.forEach((number) => {
-        console.log(number);
-    })
 }
