@@ -8,6 +8,7 @@ const fruits = ["mela", "banana", "ciliegia", "kiwi"];
 console.log(fruits[1]);
 console.log(fruits[fruits.length - 1]);
 
+
 // Esercizio 2: Aggiunta e rimozione di elementi
 
 // Partendo dall'array [1, 2, 3]:
@@ -30,6 +31,7 @@ console.log(numbers);
 
 numbers.shift();
 console.log(numbers);
+
 
 // Esercizio 3: Iterazione dell'array
 
@@ -56,6 +58,7 @@ if (products.includes(searchProduct)) {
     console.log(`L'elemento ${searchProduct} non è presente nell'array`)
 }
 
+
 // Esercizio 5: Modifica di un elemento
 
 // Dato l'array ["Roma", "Milano", "Napoli"], cambia il secondo elemento (Milano) in "Firenze".
@@ -66,3 +69,20 @@ console.log(cities);
 
 cities[1] = "Firenze";
 console.log(cities);
+
+
+// Esercizio 6: Controlla se c'è il 7
+
+// Usa includes per verificare se l’array contiene il numero 7
+
+{
+    const numbers = [4, 3, 7, 2];
+
+    const number = numbers.includes(7);
+    console.log(number);
+}
+
+
+
+
+
