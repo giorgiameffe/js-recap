@@ -43,5 +43,10 @@ console.log(fruitsWithExclamationMark);
 
 
 // Esercizio 5: Metodo Map - Lunghezza delle stringhe
-// Dato un array di città ["Roma", "Milano", "Napoli"], usa map()
+// Dato un array di paesi ["Italy", "America", "Australia"], usa map()
 // per creare un nuovo array contenente la lunghezza di ogni nome di città.
+
+const countries = ["Italy", "America", "Australia"];
+
+const countriesLength = countries.map(country => country.length);
+console.log(countriesLength);
