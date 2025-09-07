@@ -56,10 +56,21 @@ console.log(filteredWords);
 // Crea un array di numeri da 1 a 15.
 // Usa filter() per ottenere solo i numeri dispari e poi map() per calcolare il quadrato di ciascun numero dispari.
 
+{
+    const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
-// Esercizio 6: Filtra oggetti per età e iniziale
+    const filteredNumbers = numbers.filter(number => number % 2 !== 0);
+    console.log(`Numeri dispari: ${filteredNumbers}`);
 
-// Dato un array di oggetti {name, age} come:
-// [{name: "Alice", age: 17}, {name: "Anna", age: 25}, {name: "Bob", age: 30}, {name: "Carla", age: 20}]
-// usa filter() per creare un nuovo array con le persone che hanno più di 18 anni e il cui nome inizia con la lettera "A".
+    const squareNumbers = filteredNumbers.map(number => number * number);
+    console.log(`Quadrato dei numeri dispari: ${squareNumbers}`);
+
+}
+
+
+// Esercizio 6: Filtra nomi che iniziano con "A"
+
+// Dato un array di nomi:
+// ["Alice", "Anna", "Bob", "Carla", "Antonio"]
+// usa filter() per creare un nuovo array contenente solo i nomi che iniziano con la lettera "
 
