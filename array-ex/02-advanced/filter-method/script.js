@@ -1,5 +1,4 @@
 // Esercizio 1: Metodo Filter
-
 // Dato l'array di età [12, 18, 25, 6, 30, 16], 
 // utilizza il metodo filter() per creare un nuovo array contenente solo le età che sono maggiori o uguali a 18.
 // Stampa il nuovo array.
@@ -10,7 +9,6 @@ const filteredAges = ages.filter(age => age >= 18);
 console.log(filteredAges);
 
 // Esercizio 2: Filtra e trasforma numeri
-
 // Crea un array di numeri interi da 1 a 10.
 // Usa .filter() per tenere solo i numeri pari.
 // Usa .map() per raddoppiare i numeri filtrati.
@@ -30,7 +28,6 @@ doubledNumbers.forEach((number) => {
 })
 
 // Esercizio 3: Filtra numeri grandi
-
 // Usa filter per creare un array con i numeri maggiori di 20.
 
 {
@@ -41,7 +38,6 @@ doubledNumbers.forEach((number) => {
 }
 
 // Esercizio 4: Filtra parole lunghe
-
 // Dato un array di parole ["ciao", "javascript", "esercizio", "web", "fun"],
 // usa filter() per creare un nuovo array contenente solo le parole con più di 5 lettere.
 
@@ -52,7 +48,6 @@ console.log(filteredWords);
 
 
 // Esercizio 5: Numeri dispari elevati al quadrato
-
 // Crea un array di numeri da 1 a 15.
 // Usa filter() per ottenere solo i numeri dispari e poi map() per calcolare il quadrato di ciascun numero dispari.
 
@@ -69,12 +64,11 @@ console.log(filteredWords);
 
 
 // Esercizio 6: Filtra nomi che iniziano con "A"
-
 // Dato un array di nomi:
 // ["Alice", "Anna", "Bob", "Carla", "Antonio"]
 // usa filter() per creare un nuovo array contenente solo i nomi che iniziano con la lettera "A".
 
 const names = ['Alice', 'Anna', 'Bob', 'Carla', 'Antonio'];
 
-const filteredNames = names.filter(name => name[0] === 'A');
+const filteredNames = names.filter(name => name[0].toUpperCase() === 'A');
 console.log(`Nomi che iniziano con la lettera A: ${filteredNames}`);
