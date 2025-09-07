@@ -156,6 +156,12 @@ const students = [
     { name: 'Tommaso', score: 68 }
 ];
 
+const studentsWithHighScore = students.map(student => {
+
+    return { ...student, score: Math.round(student.score * 1.05) };
+});
+
+console.log(studentsWithHighScore);
 
 // Esercizio 8: Trova primo oggetto con condizione
 // Dato un array di veicoli con proprietà: brand, year, available
