@@ -72,5 +72,9 @@ console.log(filteredWords);
 
 // Dato un array di nomi:
 // ["Alice", "Anna", "Bob", "Carla", "Antonio"]
-// usa filter() per creare un nuovo array contenente solo i nomi che iniziano con la lettera "
+// usa filter() per creare un nuovo array contenente solo i nomi che iniziano con la lettera "A".
 
+const names = ['Alice', 'Anna', 'Bob', 'Carla', 'Antonio'];
+
+const filteredNames = names.filter(name => name[0] === 'A');
+console.log(`Nomi che iniziano con la lettera A: ${filteredNames}`);
