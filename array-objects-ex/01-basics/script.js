@@ -79,8 +79,3 @@ console.log('Array dopo rimozione del primo prodotto:', products);
 
 products[0].available = false;
 console.log('Prodotto aggiornato:', products[0]);
-
-
-// Esercizio 7: Trova prodotto costoso
-// Usa find() per cercare il primo prodotto con prezzo maggiore di 500.
-// Stampa il nome e il prezzo del prodotto trovato.
