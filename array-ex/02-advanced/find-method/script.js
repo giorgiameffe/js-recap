@@ -42,3 +42,8 @@ console.log('Primo numero negativo:', findNegativeNumber);
 // Esercizio 5: Trova il primo nome che inizia con "B"
 // Dato un array di nomi ["Alice", "Bob", "Carla", "Bruno", "Anna"],
 // usa find() per ottenere il primo nome che inizia con la lettera "B".
+
+const names = ['Alice', 'Bob', 'Carla', 'Bruno', 'Anna'];
+
+const nameStartWithB = names.find(name => name[0].toUpperCase() === 'B');
+console.log('Primo nome che inizia con la B:', nameStartWithB);
