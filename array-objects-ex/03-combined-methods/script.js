@@ -1,28 +1,4 @@
-// Esercizio 1: Modifica e Ricerca
-// Lavoriamo ancora con l'array users dell'esercizio precedente.
-// Trova l'utente con un id specifico (es. id: 2).
-// Una volta trovato, modifica la sua età a 30 (o a un nuovo valore a tua scelta).
-// Stampa l'utente modificato.
-// Cerca un utente per nome (es. "Mario"). Se lo trovi, stampa tutte le sue informazioni.
-// Se non lo trovi, stampa un messaggio appropriato.
-
-const userIdTwo = users.find(user => user.id === 2);
-console.log(userIdTwo);
-
-userIdTwo.age = 30;
-console.log(userIdTwo);
-
-const userSearchName = 'Viola';
-const userToFind = users.find(user => user.name === userSearchName);
-
-if (userToFind) {
-    console.log(`L'utente ${userSearchName} è stato trovato:`, userToFind)
-} else {
-    console.log(`L'utente ${userSearchName} non è stato trovato`)
-}
-
-
-// Esercizio 2: Calcola il prezzo totale dei prodotti disponibili
+// Esercizio 1: Calcola il prezzo totale dei prodotti disponibili
 // Dato un array di prodotti, in cui ogni prodotto è un oggetto con: name, price, available
 // Trova solo i prodotti disponibili
 // Calcola il prezzo totale di questi prodotti.
@@ -48,7 +24,7 @@ if (userToFind) {
 
 }
 
-// Esercizio 3: Concatenazione di metodi
+// Esercizio 2: Concatenazione di metodi
 // Dato un array di film con proprietà: title, rating, genre
 // Trova tutti i film con rating maggiore di 7, prendi solo il titolo e stampa un nuovo array
 
@@ -59,8 +35,13 @@ const movies = [
     { title: 'Jumanji', rating: 7.0, genre: 'Adventure' }
 ];
 
+const moviesTitle = movies
+    .filter(movie => movie.rating > 7)
+    .map(movie => movie.title)
+console.log(moviesTitle);
 
-// Esercizio 4: Riduzione combinata
+
+// Esercizio 3: Riduzione combinata
 // Dato un array di ordini con proprietà: product, quantity, price
 // Calcola il totale complessivo di tutti gli ordini utilizzando map + reduce
 
