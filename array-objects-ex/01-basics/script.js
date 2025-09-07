@@ -56,10 +56,20 @@ console.log('Disponibilità secondo prodotto:', products[1].available);
 // Aggiungi un nuovo prodotto alla fine: "Tablet", 450.00, true.
 // Stampa l'intero array per verificare l'aggiunta.
 
+const newItem = {
+    name: 'Tablet',
+    price: 450.00,
+    available: true
+}
+
+products.push(newItem);
+console.log(products);
 
 // Esercizio 5: Rimuovi il primo prodotto
 // Usa il metodo shift() per rimuovere il primo prodotto dall'array.
 // Stampa l'intero array per verificare la rimozione.
+
+
 
 
 // Esercizio 6: Aggiorna disponibilità
