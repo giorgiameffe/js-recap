@@ -141,6 +141,9 @@ const items = [
     { name: 'Cappello', price: 15, category: 'Accessori' }
 ];
 
+const filteredItems = items.filter(item => item.category === 'Abbigliamento');
+console.log(filteredItems);
+
 
 // Esercizio 7: Modifica proprietà con map
 // Dato un array di studenti con proprietà: name, score
