@@ -69,7 +69,8 @@ console.log(products);
 // Usa il metodo shift() per rimuovere il primo prodotto dall'array.
 // Stampa l'intero array per verificare la rimozione.
 
-
+products.shift();
+console.log(products);
 
 
 // Esercizio 6: Aggiorna disponibilità
