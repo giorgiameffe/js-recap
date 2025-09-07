@@ -63,19 +63,22 @@ const newItem = {
 }
 
 products.push(newItem);
-console.log(products);
+console.log('Array dopo aggiunta del nuovo prodotto:', products);
 
 // Esercizio 5: Rimuovi il primo prodotto
 // Usa il metodo shift() per rimuovere il primo prodotto dall'array.
 // Stampa l'intero array per verificare la rimozione.
 
 products.shift();
-console.log(products);
+console.log('Array dopo rimozione del primo prodotto:', products);
 
 
 // Esercizio 6: Aggiorna disponibilità
 // Prendi un prodotto a scelta dall'array e cambia la sua proprietà available in false.
 // Stampa il prodotto aggiornato per verificare la modifica.
+
+products[0].available = false;
+console.log('Prodotto aggiornato:', products[0]);
 
 
 // Esercizio 7: Trova prodotto costoso
