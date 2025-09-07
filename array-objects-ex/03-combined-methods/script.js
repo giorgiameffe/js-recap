@@ -20,7 +20,7 @@
         return accumulator + currentValue.price;
     }, 0)
 
-    console.log(`Il totale è ${sumPrices}`)
+    console.log('Il totale è:', sumPrices)
 
 }
 
@@ -51,3 +51,8 @@ const orders = [
     { product: 'Cappello', quantity: 3, price: 15 },
     { product: 'Calze', quantity: 5, price: 5 }
 ];
+
+const total = orders
+    .map(order => order.quantity * order.price)
+    .reduce((accumulator, currentValue) => accumulator += currentValue);
+console.log('Totale complessivo:', total);
