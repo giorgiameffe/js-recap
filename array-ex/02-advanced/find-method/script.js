@@ -33,6 +33,11 @@ console.log('Prima parola lunga:', longWord);
 // Esercizio 4: Trova il primo numero negativo
 // Crea un array di numeri misti [4, -3, 7, -1, 0, 9] e usa find() per trovare il primo numero negativo.
 
+const numbers = [4, -3, 7, -1, 0, 9];
+
+const findNegativeNumber = numbers.find(number => number < 0);
+console.log('Primo numero negativo:', findNegativeNumber);
+
 
 // Esercizio 5: Trova il primo nome che inizia con "B"
 // Dato un array di nomi ["Alice", "Bob", "Carla", "Bruno", "Anna"],
