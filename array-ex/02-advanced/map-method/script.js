@@ -23,6 +23,7 @@ console.log(uppercaseNames);
 
 
 // Esercizio 3: Metodo Map - Quadrati dei numeri
+
 // Dato un array di numeri [2, 3, 4, 5], usa map() per creare un nuovo array
 // in cui ogni numero sia elevato al quadrato.
 
@@ -33,6 +34,7 @@ console.log(squareNumbers);
 
 
 // Esercizio 4: Metodo Map - Aggiungi un simbolo
+
 // Dato un array di parole ["apple", "pear", "watermelon"], usa map()
 // per creare un nuovo array aggiungendo un "!" alla fine di ogni parola.
 
@@ -43,6 +45,7 @@ console.log(fruitsWithExclamationMark);
 
 
 // Esercizio 5: Metodo Map - Lunghezza delle stringhe
+
 // Dato un array di paesi ["Italy", "America", "Australia"], usa map()
 // per creare un nuovo array contenente la lunghezza di ogni nome di città.
 
