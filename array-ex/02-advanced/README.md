@@ -23,3 +23,12 @@ Esercizi per trasformare ogni elemento di un array e creare un **nuovo array** c
 - **reduce/**  
 Esercizi per **"ridurre"** un array a un singolo valore (numero, oggetto o anche un altro array).  
 Questo è uno dei metodi più **potenti e flessibili**.
+
+---
+
+## 🛠️ Come Utilizzare gli Esercizi
+
+1. Aprire il file `index.html`.  
+2. Assicurarsi che `script.js` sia collegato correttamente.  
+3. Aprire la **console del browser** (tasto destro → "Ispeziona" → "Console") per visualizzare i risultati.  
+4. Modificare ed eseguire il codice per testare nuovi filtri, trasformazioni o calcoli.

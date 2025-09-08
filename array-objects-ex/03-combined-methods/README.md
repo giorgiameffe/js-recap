@@ -23,12 +23,3 @@ Gli esercizi attuali includono:
 
 - **Ricerca di oggetti specifici**  
   Esempio: usare `.find()` per trovare il primo oggetto che soddisfa una condizione e combinarlo con altri metodi per ulteriori operazioni.
-
----
-
-## 🛠️ Come Utilizzare gli Esercizi
-
-1. Aprire il file `index.html`.  
-2. Assicurarsi che `script.js` sia collegato correttamente.  
-3. Aprire la **console del browser** (tasto destro → "Ispeziona" → "Console") per visualizzare i risultati.  
-4. Modificare ed eseguire il codice per provare nuovi filtri, trasformazioni e calcoli combinati.

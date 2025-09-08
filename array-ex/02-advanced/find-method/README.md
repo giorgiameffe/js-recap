@@ -17,12 +17,3 @@ Gli esercizi affrontano i seguenti concetti:
 
 - **Stampa dei risultati**  
   Visualizzazione in console dell’elemento trovato o di un messaggio alternativo.
-
----
-
-## 🛠️ Come Utilizzare gli Esercizi
-
-1. Aprire il file `index.html`.  
-2. Collegare il file `script.js` (già incluso o da includere).  
-3. Aprire la **console del browser** (tasto destro → "Ispeziona" → "Console") per visualizzare i risultati.  
-4. Modificare ed eseguire il codice per sperimentare con altri dati o condizioni.

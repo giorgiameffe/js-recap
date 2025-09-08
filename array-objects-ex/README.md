@@ -32,9 +32,23 @@ Questa sezione è dedicata ai **metodi avanzati per lavorare con array di oggett
 
 ---
 
+## 🔗 Sottocartella `combined-methods`
+
+Questa nuova sezione è dedicata a **esercizi più complessi**, dove si combinano diversi metodi degli array per lavorare sugli oggetti.  
+Permette di mettere in pratica le conoscenze acquisite nelle sottocartelle precedenti e di imparare a **pensare in modo funzionale e conciso**.
+
+**Esempi di combinazioni trattate:**
+
+- `.filter()` + `.map()`  
+- `.map()` + `.reduce()`  
+- `.filter()` + `.reduce()`  
+- e altre...
+
+---
+
 ## 🛠️ Come Utilizzare gli Esercizi
 
-1. Aprire il file `index.html` presente in ciascuna sottocartella.  
-2. Assicurarsi che `script.js` sia correttamente collegato.  
+1. Aprire il file `index.html`.  
+2. Assicurarsi che `script.js` sia collegato correttamente.  
 3. Aprire la **console del browser** (tasto destro → "Ispeziona" → "Console") per visualizzare i risultati.  
-4. Modificare ed eseguire il codice per sperimentare con nuovi dati o condizioni.
+4. Modificare ed eseguire il codice per testare nuovi filtri, trasformazioni o calcoli.

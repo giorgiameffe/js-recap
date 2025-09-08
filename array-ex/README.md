@@ -1,4 +1,4 @@
-# 💻 Esercizi JavaScript - Array 📄
+# 💻 Esercizi JavaScript - Array
 
 Questa cartella è dedicata alla **pratica e all'apprendimento degli array** in JavaScript, una struttura dati fondamentale per ogni sviluppatore.  
 
@@ -32,6 +32,18 @@ La cartella è ulteriormente suddivisa per ogni metodo, così puoi concentrarti 
 - **`.map()`**: trasforma ogni elemento e crea un nuovo array con i risultati  
 - **`.reduce()`**: calcola un singolo valore (es. somma) partendo da tutti gli elementi  
 - **`.forEach()`**: esegue una funzione su ogni elemento senza restituire un nuovo array  
-- **`.find()`**: trova il primo elemento che soddisfa una condizione  
+- **`.find()`**: trova il primo elemento che soddisfa una condizione
 
-Ogni sottocartella contiene il proprio `index.html` e `script.js`, permettendoti di **testare gli esercizi in modo isolato** e senza interferenze.
+---
+
+## 🔗 `combined-methods`
+
+Questa sezione è dedicata a **esercizi più avanzati**, dove si combinano diversi metodi degli array per risolvere problemi più complessi.  
+Permette di mettere in pratica le conoscenze acquisite nelle sottocartelle precedenti e di imparare a **pensare in modo funzionale e conciso**.  
+
+**Esempi di combinazioni trattate:**
+
+- `.filter()` + `.map()`  
+- `.map()` + `.reduce()`  
+- `.filter()` + `.reduce()`
+- e altre...

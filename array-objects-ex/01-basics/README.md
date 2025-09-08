@@ -16,12 +16,3 @@ Gli esercizi attuali includono:
 - **Aggiunta e rimozione di oggetti** usando i metodi `.push()` e `.pop()`.
   
 - **Verifica dei valori delle proprietà** con `console.log`.
-
----
-
-## 🛠️ Come Utilizzare gli Esercizi
-
-1. Aprire il file `index.html`.  
-2. Assicurarsi che `script.js` sia collegato correttamente.  
-3. Aprire la **console del browser** (tasto destro → "Ispeziona" → "Console") per visualizzare i risultati.  
-4. Modificare ed eseguire il codice per aggiungere nuovi oggetti o testare altre operazioni.

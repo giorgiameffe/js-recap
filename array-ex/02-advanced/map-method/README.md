@@ -11,13 +11,4 @@ Gli esempi mostrano come **trasformare gli elementi di un array** generando un *
 - **Creazione di nuovi array** a partire da dati esistenti.  
 - **Utilizzo con numeri e stringhe** per operazioni pratiche come:  
   - Moltiplicare valori numerici.  
-  - Convertire stringhe in maiuscolo.  
-  
----
-
-## 🛠️ Come Utilizzare gli Esercizi
-
-1. Aprire il file `index.html`.  
-2. Verificare che `script.js` sia collegato correttamente.  
-3. Aprire la **console del browser** (tasto destro → "Ispeziona" → "Console") per visualizzare i risultati.  
-4. Modificare ed eseguire il codice per sperimentare con altri dati.
+  - Convertire stringhe in maiuscolo.

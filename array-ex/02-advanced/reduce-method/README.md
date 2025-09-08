@@ -12,12 +12,3 @@ Gli esercizi mostrano come **ridurre un array a un singolo valore** tramite una 
 - **Trasformazioni complesse** di array in un singolo risultato.
   
 - **Gestione di accumulatori e valori correnti** durante l’iterazione.  
-
----
-
-## 🛠️ Come Utilizzare gli Esercizi
-
-1. Aprire il file `index.html`.  
-2. Collegare il file `script.js`.  
-3. Aprire la **console del browser** (tasto destro → "Ispeziona" → "Console") per visualizzare i risultati.  
-4. Modificare ed eseguire il codice per sperimentare con altri array o operazioni.
